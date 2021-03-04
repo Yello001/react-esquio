@@ -30,7 +30,8 @@ import {claimValueToggle} from 'react-esquio';
 
 <FeatureFlagProvider
   value={{
-    toggles: [claimValueToggle(token)]
+    ...,
+    toggles: claimValueToggle(tokenParsed)
   }}>
   ...
 </FeatureFlagProvider>
