@@ -12,7 +12,8 @@
     "prebuild": "rimraf dist/",
     "build": "tsc",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "version": "git add -A src"
   },
   "jest": {
     "transform": {
@@ -56,5 +57,8 @@
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17"
+  },
+  "dependencies": {
+    "esquio-js-connector": "^1.0.1"
   }
 }
