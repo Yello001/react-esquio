@@ -28,7 +28,7 @@ const [canCreate, canUpdate] = useFeatureFlags('Create', 'Update');
 
 ## Toggles
 
-Currently only the **Identity Claim Value** Toggle is supported. Token can be provided to Provider as *toggles*
+Currently only the **Identity Claim Value** Toggle is supported. Token can be provided to FeatureFlagProvider as *toggles*
 
 ```jsx
 import {claimValueToggle} from 'react-esquio';
