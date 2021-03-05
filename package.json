@@ -53,12 +53,12 @@
     "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.5.3",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.3"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17"
   },
   "dependencies": {
-    "esquio-js-connector": "^1.0.1"
+    "esquio-js-connector": "^1.0.2"
   }
 }
